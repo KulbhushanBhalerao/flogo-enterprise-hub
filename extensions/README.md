@@ -7,6 +7,7 @@ This folder contains custom extensions developed for FLOGO.
 * [SSH](https://github.com/TIBCOSoftware/flogo-enterprise-hub/tree/master/extensions/ssh/README.md): Execute commands over SSH connection
 * [GCP](https://github.com/TIBCOSoftware/flogo-enterprise-hub/tree/master/extensions/gcp/README.md): Generates ID Tokens from GCP OIDC API
 * [Pongo2](https://github.com/TIBCOSoftware/flogo-enterprise-hub/tree/master/extensions/pongo2/docs/README.md): Pongo2 template processor activity for dynamic prompt engineering to expose via MCP Trigger
+* [Prometheus Metrics](https://github.com/TIBCOSoftware/flogo-enterprise-hub/tree/master/extensions/prometheus-metrics/README.md): Converts JSON data into Prometheus exposition format metrics
 
 ## Triggers
 
@@ -15,11 +16,12 @@ This folder contains custom extensions developed for FLOGO.
 
 ## Version History
 
-| Extension Name | Version | Last Change |
-|----------------|---------|-------------|
-| ssh            | 1.0.0   | 24th July 2025, New
-| gcp            | 1.0.0   | 24th July 2025, New
-| pongo2         | 1.0.0   | 18th December 2025, New
+| Extension Name     | Version | Last Change |
+|--------------------|---------|-------------|
+| ssh                | 1.0.0   | 24th July 2025, New
+| gcp                | 1.0.0   | 24th July 2025, New
+| pongo2             | 1.0.0   | 18th December 2025, New
+| prometheus-metrics | 1.0.0   | 18th December 2025, New
 
 ----------
 ## Feedback ##

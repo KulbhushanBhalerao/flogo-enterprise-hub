@@ -122,13 +122,6 @@
             "description": "Converts JSON messages into Prometheus metric format with configurable metric types, labels, and timestamps.",
             "activity": {
               "ref": "#prometheus-metrics",
-              "settings": {
-                "metricType": "gauge",
-                "metricName": "house_stats",
-                "includeHelp": true,
-                "includeType": true,
-                "timestamp": false
-              },
               "input": {
                 "metricData": {
                   "mapping": {
@@ -148,7 +141,13 @@
                   }
                 }
               },
-              "feSchemaMap": {}
+              "settings": {
+                "metricType": "gauge",
+                "metricName": "house_stats",
+                "includeHelp": true,
+                "includeType": true,
+                "timestamp": false
+              }
             }
           },
           {
@@ -227,7 +226,7 @@
     }
   ],
   "connections": {},
-  "contrib": "W3sicmVmIjoiZ2l0aHViLmNvbS90aWJjby9mbG9nby1nZW5lcmFsL3NyYy9hcHAvR2VuZXJhbCIsImlkIjoiR2VuZXJhbCIsInZlcnNpb24iOiIxLjYuNSIsInRhZyI6IjEuNi41LWIwNCIsIm5hbWUiOiJHZW5lcmFsIiwiczNsb2NhdGlvbiI6IlRpYmNvL0dlbmVyYWwiLCJpc1VzZXJFeHRlbnNpb24iOmZhbHNlfSx7InJlZiI6ImdpdGh1Yi5jb20va3VsYmh1c2hhbmJoYWxlcmFvL2Zsb2dvLWV4dGVuc2lvbnMvcHJvbWV0aGV1cy1tZXRyaWNzIiwidmVyc2lvbiI6IjEuMC4wIiwidGFnIjoiMS4wLjAiLCJuYW1lIjoiUHJvbWV0aGV1c01ldHJpY3NDb252ZXJ0ZXIiLCJpZCI6InRpYmNvLXByb21ldGhldXMtbWV0cmljcyIsInMzbG9jYXRpb24iOiJ7VVNFUklEfS9EZWZhdWx0L2FjdGl2aXR5L3Byb21ldGhldXMtbWV0cmljcyIsImlzVXNlckV4dGVuc2lvbiI6dHJ1ZX1d",
+  "contrib": "W3sicmVmIjoiZ2l0aHViLmNvbS90aWJjby9mbG9nby1nZW5lcmFsL3NyYy9hcHAvR2VuZXJhbCIsImlkIjoiR2VuZXJhbCIsInZlcnNpb24iOiIxLjYuMTAiLCJ0YWciOiIxLjYuMTAtYjA1IiwibmFtZSI6IkdlbmVyYWwiLCJzM2xvY2F0aW9uIjoiVGliY28vR2VuZXJhbCIsImlzVXNlckV4dGVuc2lvbiI6ZmFsc2V9LHsicmVmIjoiZ2l0aHViLmNvbS9rdWxiaHVzaGFuYmhhbGVyYW8vZmxvZ28tZXh0ZW5zaW9ucy9wcm9tZXRoZXVzLW1ldHJpY3MiLCJzM2xvY2F0aW9uIjoie1VTRVJJRH0vRGVmYXVsdC9hY3Rpdml0eS9wcm9tZXRoZXVzLW1ldHJpY3MifV0=",
   "metadata": {
     "endpoints": [
       {
@@ -267,6 +266,6 @@
         }
       }
     ],
-    "flogoVersion": "2.25.5"
+    "flogoVersion": "2.25.10"
   }
 }
